@@ -1,9 +1,40 @@
 /*Schrijf hier jouw CSS*/
 
-.nav-bar {
+/*Deelopdracht 1*/
+
+.nav-bar-opdracht-1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+/*Deelopdracht 2*/
 
+.content-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-opdracht-2 li {
+    flex: 100px;
+}
+
+/*Deelopdracht 3*/
+
+.snollebollekes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.do3-centered {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-self: center;
+    /*justify-self: center;*/
+
+}
+
+.do3-right {
+    align-self: flex-end;
 }
